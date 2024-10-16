@@ -16,16 +16,16 @@ build:
 
 requirements:
   host:
-    - python >=3.8
-    - flit-core >=3.2,<4
+    - python >=3.8,<4.0
     - pip
+    - poetry-core >=1.0.0
   run:
-    - urllib3 >=2.2.2,<3.0.0
-    - python >=3.8
+    - python >=3.8,<4.0
     - microsoft-kiota-abstractions
     - httpx >=0.23.0,<0.24.0
     - opentelemetry-api >=1.27.0
     - opentelemetry-sdk >=1.27.0
+    - urllib3 >=2.2.2,<3.0.0
 
 test:
   imports:
@@ -36,13 +36,13 @@ test:
     - pip
 
 about:
-  home: https://github.com/microsoft/kiota-http-python
+  home: https://github.com/microsoft/kiota-python/tree/main/packages/http/httpx
   summary: Kiota http request adapter implementation for httpx library
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  dev_url: https://github.com/microsoft/kiota-http-python
-  doc_url: https://github.com/microsoft/kiota-http-python/blob/main/README.md
+  dev_url: https://github.com/microsoft/kiota-python/tree/main/packages/http/httpx
+  doc_url: https://github.com/microsoft/kiota-python/blob/main/packages/http/httpx/README.md
 
 extra:
   recipe-maintainers:
