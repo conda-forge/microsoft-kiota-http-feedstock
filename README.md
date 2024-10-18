@@ -3,15 +3,15 @@ About microsoft-kiota-http-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/microsoft-kiota-http-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/microsoft/kiota-http-python
+Home: https://github.com/microsoft/kiota-python/tree/main/packages/http/httpx
 
 Package license: MIT
 
 Summary: Kiota http request adapter implementation for httpx library
 
-Development: https://github.com/microsoft/kiota-http-python
+Development: https://github.com/microsoft/kiota-python/tree/main/packages/http/httpx
 
-Documentation: https://github.com/microsoft/kiota-http-python/blob/main/README.md
+Documentation: https://github.com/microsoft/kiota-python/blob/main/packages/http/httpx/README.md
 
 Current build status
 ====================
