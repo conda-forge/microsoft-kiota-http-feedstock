@@ -20,7 +20,7 @@ requirements:
     - pip
     - poetry-core >=1.0.0
   run:
-    - python >={{ python_min }}
+    - python >={{ python_min }},<4.0
     - microsoft-kiota-abstractions
     - httpx >=0.28
     - opentelemetry-api >=1.27.0
