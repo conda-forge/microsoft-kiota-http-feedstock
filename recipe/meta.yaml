@@ -1,5 +1,5 @@
 {% set name = "microsoft-kiota-http" %}
-{% set version = "1.6.8" %}
+{% set version = "1.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/microsoft_kiota_http-{{ version }}.tar.gz
-  sha256: 67242690b79a30c0cadf823675249269e4bc020283e3d65b33af7d771df64df8
+  sha256: d6d641fcfd071f7e786ba3a001865b15398f287e3a17c7edfc9cbdeeefbaeb30
 
 build:
   noarch: python
