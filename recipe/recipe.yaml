@@ -24,6 +24,8 @@ requirements:
     - python >=${{ python_min }},<4.0
     - microsoft-kiota-abstractions >=1.11.1,<2.0.0
     - httpx >=0.25,<1.0.0
+    # httpx[http2] extra:
+    - h2 >=3,<5
     - opentelemetry-api >=1.27.0
     - opentelemetry-sdk >=1.27.0
 tests:
