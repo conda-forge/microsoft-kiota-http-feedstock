@@ -26,6 +26,9 @@ requirements:
     - opentelemetry-api >=1.27.0
     - opentelemetry-sdk >=1.27.0
     - httpx >=0.25,<1.0.0
+    # start httpx[http2]
+    - h2 >=3,<5
+    # end httpx[http2]
 tests:
   - python:
       imports:
