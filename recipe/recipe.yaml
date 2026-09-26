@@ -1,6 +1,6 @@
 context:
   name: microsoft-kiota-http
-  version: 1.14.0
+  version: 1.14.1
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/microsoft_kiota_http-${{ version }}.tar.gz
-  sha256: 40f2a72570eb3bd09c3b7134bcc476cb0c19478077712770d0844b11078b83e0
+  sha256: e1766c8b34eb9fa1af016df22ccfb10ab67da2a51757bb850b1d21ab526637c5
 
 build:
   noarch: python
@@ -26,9 +26,6 @@ requirements:
     - opentelemetry-api >=1.27.0
     - opentelemetry-sdk >=1.27.0
     - httpx >=0.25,<1.0.0
-    # start httpx[http2]
-    - h2 >=3,<5
-    # end httpx[http2]
 tests:
   - python:
       imports:
