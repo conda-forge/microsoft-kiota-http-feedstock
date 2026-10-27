@@ -1,6 +1,6 @@
 context:
   name: microsoft-kiota-http
-  version: "1.15.0"
+  version: "1.16.0"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/microsoft_kiota_http-${{ version }}.tar.gz
-  sha256: 9f4d5fdd97db5bc01e86cf5e2fe08a770c46370ab0c1d5a40af86f14a18a290a
+  sha256: 5bd5fe7f83428edd61e0d28f90bc95af145b1004fdc33e082422f4bd38d60fde
 
 build:
   noarch: python
